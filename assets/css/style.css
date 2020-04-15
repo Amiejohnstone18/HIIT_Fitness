@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed&display=swap');
+
+.navbar {
+    background-color: #cc5500;
+
+}
+
+.navbar-brand {
+    color: white;
+    font-family: "sans condensed" sans-serif;
+    font-size: 30px;
+    margin: auto;
+}
+
+.nav-fill{
+    background-color: #a9a9a9;
+}
+
+.nav-link {
+    color: white;
+}
+
+
+.nav-link:hover {
+    color: #cc5500;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #cc5500;
+}
+
+.social-media{
+    text-align: center;
+}
+
+.social-media li{
+    display: inline;
+}
+
+.social-media i{
+    color: white;
+    font-size: 250%;
+    padding: 2.5%;
+}
+
