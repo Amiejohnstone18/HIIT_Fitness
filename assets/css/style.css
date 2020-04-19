@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed&display=swap');
 
+/* Navigation Menu*/
+
 .navbar {
     background-color: #cc5500;
-
+    height: 130px;
 }
 
 .navbar-brand {
-    color: white;
-    font-family: "sans condensed" sans-serif;
-    font-size: 30px;
     margin: auto;
 }
 
@@ -25,6 +24,7 @@
     color: #cc5500;
 }
 
+/* Hero Shot */
 
 #hero-image {
     height:400px;
@@ -59,6 +59,8 @@
     transform: translate(-50%, -50%);
 }
 
+/* Testimonials */
+
 .testimonials{
     padding-top: 50px;
     text-align: center;
@@ -66,21 +68,21 @@
     font-size: 25px;
 }
 
+/* Promo Images */
+
 .three-bar{
     height: 400px;
-    width: 150%;
+    width: 200%;
     background-image: no-repeat;
-    display: block;
+    object-fit: cover;
 }
 
 #options div .col-md{
     width: 100%;
     clear: both;
     height: 150%;
-    border-style: solid;
-    border-width: 2px;
+    text-align: center;
     color: #cc5500;
-    text-align: absolute;
 }
 
 .col-sm{
@@ -98,6 +100,68 @@ hr{
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Timetable PDF */
+
+.link{
+    color: #cc5500;
+    background-color: white;
+    border-color: #cc5500;
+    font-size: 18px;
+}
+
+.link:hover{
+    color: #cc5500;
+    font-weight: bold;
+}
+
+/* Personal Trainers*/
+
+.pt-intro{
+    text-align: center;
+    color: #cc5500;
+    padding: 20 0 0 10;
+}
+
+.pt-info{
+    text-align: center;
+    color: #cc5500;
+    padding: 20 0 0 20;
+}
+
+.trainer-1{
+    height: 250px;
+    width: 100%;
+}
+
+.trainer-2{
+    height: 250px;
+    width: 100%;
+}
+
+.trainer-3{
+    height: 250px;
+    width: 100%;
+}
+
+.trainer-4{
+    height: 250px;
+    width: 100%;
+}
+
+.trainer-5{
+    height: 250px;
+    width: 100%;
+}
+
+/* Become a Trainer */
+
+.form-check-label{
+    font-size: 12px;
+    color: #a9a9a9;
+}
+
+/* Footer */
 
 footer {
     bottom: 0;
