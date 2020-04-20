@@ -124,9 +124,8 @@ hr{
 }
 
 .pt-info{
-    text-align: center;
+    text-align: left;
     color: #cc5500;
-    padding: 20 0 0 20;
 }
 
 .trainer-1{
@@ -161,9 +160,25 @@ hr{
 
 /* Become a Trainer */
 
+.become-a-trainer{
+    width: 100%;
+}
+
+.trainer-info{
+    text-align: left;
+}
+
 .form-check-label{
     font-size: 12px;
     color: #a9a9a9;
+}
+
+/* Sign- Up */
+
+.cover-text-2{
+    text-align: center;
+    color: White;
+    height: 50%;
 }
 
 /* Footer */
