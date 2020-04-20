@@ -168,6 +168,11 @@ hr{
     text-align: left;
 }
 
+.email{
+    text-align: left;
+    color: #cc5500;
+}
+
 .form-check-label{
     font-size: 12px;
     color: #a9a9a9;
@@ -175,7 +180,7 @@ hr{
 
 /* Sign- Up */
 
-.cover-text-2{
+#cover-text-2{
     text-align: center;
     color: White;
     height: 50%;
