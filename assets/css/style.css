@@ -94,6 +94,7 @@
 .testimonials{
     padding-top: 50px;
     text-align: center;
+    font-size: 30px;
     color: #cc5500;
     font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -101,36 +102,71 @@
 #testimonial-text{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #cc5500;
 }
 
 #testimonial-text-two{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 24px;
-}
-
-/* Promo Images */
-
-.three-bar{
-    height: 400px;
-    width: 200%;
-    object-fit: cover;
-}
-
-#options div .col-md{
-    width: 100%;
-    clear: both;
-    height: 150%;
-    text-align: center;
-    color: #cc5500;
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-
-.col-sm{
     padding-top: 10px;
     padding-bottom: 50px;
     text-align: center;
     color: #cc5500;
-    font-size: 18px;
+}
+
+/* Promo Images */
+
+#three-bar{
+    height: 350px;
+    width: 100%;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+#free-trial{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    text-decoration: underline;
+}
+
+#free-trial:hover{
+    color: #cc5500;
+}
+
+#refer-a-friend{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    text-decoration: underline;
+}
+
+#refer-a-friend:hover{
+    color: #cc5500;
+}
+
+#trainer-career{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    text-decoration: underline;
+}
+
+#trainer-career:hover{
+    color: #cc5500;
 }
 
 /* Headings */
@@ -265,11 +301,15 @@ position: absolute;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 36px;
     font-weight: bold;
+    color: #cc5500;
+    padding-top: 20px;
 }
+
 #trainer-info{
     text-align: left;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 22px;
+    color: #cc5500;
 }
 
 /* Sign- Up */
