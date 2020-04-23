@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
 /* Navigation Menu*/
 
@@ -17,6 +17,9 @@
 
 .nav-link {
     color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
 }
 
 
@@ -30,7 +33,6 @@
 #hero-image {
     height:400px;
     width: 100%;
-    background-image: center center;
     animation-name: image-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -54,6 +56,7 @@
 #cover-text {
     text-align: center;
     position: absolute;
+    font-family: 'Open Sans Condensed', sans-serif;
     top: 50%;
     left: 50%;
     color: White;
@@ -67,6 +70,7 @@
     text-align: center;
     color: #cc5500;
     font-size: 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 /* Promo Images */
@@ -74,7 +78,6 @@
 .three-bar{
     height: 400px;
     width: 200%;
-    background-image: no-repeat;
     object-fit: cover;
 }
 
@@ -84,6 +87,7 @@
     height: 150%;
     text-align: center;
     color: #cc5500;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .col-sm{
@@ -94,130 +98,143 @@
     font-size: 18px;
 }
 
-/* Timetable PDF */
+/* Headings */
 
-.link{
+.heading-orange { /* Timetable & Personal Trainers */
+font-family: 'Open Sans Condensed', sans-serif;
+font-weight: bold;
+color: #cc5500;
+font-size: 60px;
+position: absolute;
+}
+
+.heading-white { /* Sign- up & Contact us */
+font-family: 'Open Sans Condensed', sans-serif;
+font-weight: bold;
+color: white;
+font-size: 60px;
+position: absolute;
+}
+
+/* Transparent Box- Sign-up & Contact-us */
+.box{ padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  background-color:rgba(204, 85, 0, 0.75);
+  position: absolute;
+  top: 40%;
+  right: 10%;
+  width: 80%;
+  height: 90%;
+  border: 2px solid white;
+}
+
+/* Timetable PDF */
+.timetable-intro{
+     font-family: 'Open Sans Condensed', sans-serif;
+     color: #cc5500;
+     font-size: 22px;
+}
+
+.link{ /* Download PDF */
     color: #cc5500;
     background-color: white;
     border-color: #cc5500;
-    font-size: 18px;
+    font-size: 22px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
 }
 
-.link:hover{
+.link:hover{ /* Download PDF Hover*/
     color: #cc5500;
     font-weight: bold;
 }
 
 /* Personal Trainers*/
 
-.pt-intro{
-    text-align: center;
-    color: #cc5500;
-    padding: 20 0 0 10;
-}
 
-.pt-info{
+#pt-info{
     text-align: left;
     color: #cc5500;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
 }
 
-.trainer-1{
+.personal{
+    text-align: center;
+    color: #cc5500;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+}
+
+#trainer-1{
     height: 250px;
     width: 100%;
 }
 
-.trainer-2{
+#trainer-2{
     height: 250px;
     width: 100%;
 }
 
-.trainer-3{
+#trainer-3{
     height: 250px;
     width: 100%;
 }
 
-.trainer-4{
+#trainer-4{
     height: 250px;
     width: 100%;
 }
 
-.trainer-5{
+#trainer-5{
     height: 250px;
     width: 100%;
 }
 
-.trainer-6{
+#trainer-6{
     height: 250px;
     width: 100%;
 }
 
 /* Become a Trainer */
-
-.become-a-trainer{
+#become-a-trainer{
     width: 100%;
 }
 
-.trainer-info{
-    text-align: left;
+#trainer-title{
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
 }
-
-.form-check-label{
-    font-size: 12px;
-    color: #a9a9a9;
+#trainer-info{
+    text-align: left;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
 }
 
 /* Sign- Up */
 
-#sign-up{
-    color: white;
-    font-size: 60px;
-    position: absolute;
-    top: 30%;
-    left: 32%; 
-}
-
-#sign-up-box{
-  padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  background-color:rgba(204, 85, 0, 0.75);
-  position: absolute;
-  top: 40%;
-  right: 10%;
-  width: 80%;
-  height: 90%;
-  border: 2px solid white;
-}
-
 #sign-up-box-text{
     color: white;
-    font-size: 18px;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 
 /* Contact us */
-#hero-box h1{
-  color: white;
-  text-align: center;
-  font-size: 65px;
+#contact-us-hero{
+    width: 100%;
+    height: 100%;
 }
 
 #cover-text-2{
     color: white;
     text-align: left;
     font-size: 26px;
-}
-
-#hero-box{
-  padding-top: 20px;
-  padding-left: 10px;
-  background-color:rgba(204, 85, 0, 0.75);
-  position: absolute;
-  top: 40%;
-  right: 10%;
-  width: 80%;
-  height: 90%;
-  border: 2px solid white;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 /* Footer */
