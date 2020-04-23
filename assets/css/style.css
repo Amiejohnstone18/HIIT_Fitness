@@ -55,7 +55,7 @@
 /* Hero Shot */
 
 #hero-image {
-    height:400px;
+    height:600px;
     width: 100%;
     animation-name: image-zoom;
     animation-duration: 5s;
@@ -63,7 +63,7 @@
 }
 
 #hero-outer {
-    height:400px;
+    height:600px;
     width: 100%;
     overflow: hidden;
 }
@@ -78,13 +78,14 @@
 }
 
 #cover-text {
-    text-align: center;
+    text-align: left;
     position: absolute;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 60px;
+    font-size: 40px;
+    font-weight: bolder;
     top: 50%;
-    left: 50%;
-    color: White;
+    left: 30%;
+    color: white;
     transform: translate(-50%, -50%);
 }
 
@@ -94,8 +95,17 @@
     padding-top: 50px;
     text-align: center;
     color: #cc5500;
-    font-size: 25px;
     font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#testimonial-text{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 24px;
+}
+
+#testimonial-text-two{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 24px;
 }
 
 /* Promo Images */
@@ -188,6 +198,9 @@ position: absolute;
     font-size: 22px;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: bold;
+    position: absolute;
+    right: 16px;
+    bottom: -30px;
 }
 
 .link:hover{ /* Download PDF Hover*/
