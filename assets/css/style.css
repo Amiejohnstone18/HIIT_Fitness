@@ -7,6 +7,12 @@
     height: 130px;
 }
 
+.logo{
+    position: absolute;
+    top: 12px;
+    left: 600px;
+}
+
 .navbar-brand {
     margin: auto;
 }
@@ -25,6 +31,24 @@
 
 .nav-link:hover {
     color: #cc5500;
+}
+
+.badge{
+    background-color: #a9a9a9;
+    color: white;
+    font-size: 26px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    border: 1px solid white;
+}
+
+.badge:hover{
+    background-color: white;
+    color: #cc5500;
+    font-size: 28px;
+    border: 1px solid #a9a9a9;
 }
 
 
@@ -57,6 +81,7 @@
     text-align: center;
     position: absolute;
     font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 60px;
     top: 50%;
     left: 50%;
     color: White;
@@ -135,6 +160,25 @@ position: absolute;
      font-family: 'Open Sans Condensed', sans-serif;
      color: #cc5500;
      font-size: 22px;
+}
+
+/* Table */
+
+.table {
+    color: #cc5500;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+.table-bordered{
+    border: 2px solid #a9a9a9;
+}
+
+.days {
+    font-weight: bolder;
+    font-size: 22px;
+    text-align: center;
 }
 
 .link{ /* Download PDF */
