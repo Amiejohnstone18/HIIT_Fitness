@@ -11,6 +11,7 @@
     position: absolute;
     top: 12px;
     left: 600px;
+    z-index: 0;
 }
 
 .navbar-brand {
@@ -19,6 +20,8 @@
 
 .nav-fill{
     background-color: #a9a9a9;
+    position: relative;
+    z-index: 1;
 }
 
 .nav-link {
@@ -122,14 +125,16 @@
 .container-fluid{
     padding-left: 0px;
     padding-right: 0px;
+    text-align: center;
 }
 
-#three-bar{
+.three-bar{
     height: 350px;
     width: 100%;
     padding-bottom: 2px;
     padding-left: 2px;
     padding-right: 2px;
+
 }
 
 #free-trial{
@@ -137,13 +142,20 @@
     color: white;
     font-size: 50px;
     position: absolute;
-    top: 40%;
-    left: 30%;
+    /* top: 40%; */
+    /* left: 30%; */
     text-decoration: underline;
+
+    text-align: center;
+    width: 100%;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 #free-trial:hover{
-    color: #cc5500;
+    color: white;
+    font-size: 55px;
 }
 
 #refer-a-friend{
@@ -151,46 +163,71 @@
     color: white;
     font-size: 50px;
     position: absolute;
-    top: 40%;
-    left: 25%;
+    /* top: 40%; */
+    /* left: 30%; */
     text-decoration: underline;
+
+    text-align: center;
+    width: 100%;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 #refer-a-friend:hover{
-    color: #cc5500;
+    color: white;
+    font-size: 55px;
 }
 
 #trainer-career{
-    font-family: 'Open Sans Condensed', sans-serif;
+   font-family: 'Open Sans Condensed', sans-serif;
     color: white;
     font-size: 50px;
     position: absolute;
-    top: 40%;
-    left: 18%;
+    /* top: 40%; */
+    /* left: 30%; */
     text-decoration: underline;
+
+    text-align: center;
+    width: 100%;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);   
 }
 
 #trainer-career:hover{
-    color: #cc5500;
+    color: white;
+    font-size: 55px;
 }
 
 /* Headings */
 
-.heading-orange { /* Timetable & Personal Trainers */
+.container-text-orange{ /*Timetable & Personal Trainers*/
 font-family: 'Open Sans Condensed', sans-serif;
 font-weight: bold;
 color: #cc5500;
 font-size: 60px;
 position: absolute;
+text-align: center;
+    width: 100%;
+    left: 0px;
+    top: 32%;
+    transform: translateY(-50%);  
 }
 
-.heading-white { /* Sign- up & Contact us */
+.container-text-white{ /* Sign- up & Contact us */
 font-family: 'Open Sans Condensed', sans-serif;
 font-weight: bold;
 color: white;
 font-size: 60px;
 position: absolute;
+text-align: center;
+    width: 100%;
+    left: 0px;
+    top: 32%;
+    transform: translateY(-50%);  
 }
+
 
 /* Transparent Box- Sign-up & Contact-us */
 .box{ padding-top: 20px;
@@ -259,7 +296,42 @@ position: absolute;
     font-size: 22px;
 }
 
-#personal{
+#personal-max{
+    text-align: left;
+    color: #cc5500;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+}
+
+#personal-lauren{
+    text-align: left;
+    color: #cc5500;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+}
+
+#personal-paul{
+    text-align: left;
+    color: #cc5500;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+}
+
+#personal-gabby{
+    text-align: left;
+    color: #cc5500;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+}
+
+#personal-brad{
+    text-align: left;
+    color: #cc5500;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+}
+
+#personal-john{
     text-align: left;
     color: #cc5500;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -333,12 +405,12 @@ position: absolute;
 
 
 /* Contact us */
-#contact-us-hero{
+.contact-us-hero{
     width: 100%;
     height: 100%;
 }
 
-#cover-text-2{
+.cover-text-2{
     color: white;
     text-align: left;
     font-size: 26px;
