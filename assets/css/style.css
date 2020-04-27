@@ -53,7 +53,6 @@
     border: 1px solid #a9a9a9;
 }
 
-
 /* Hero Shot */
 
 #hero-image { /* Credit to Hero image animation from Code Institute Love Runnings Mini Project */
@@ -141,7 +140,6 @@
     font-size: 50px;
     position: absolute;
     text-decoration: underline;
-
     text-align: center;
     width: 100%;
     left: 0px;
@@ -160,7 +158,6 @@
     font-size: 50px;
     position: absolute;
     text-decoration: underline;
-
     text-align: center;
     width: 100%;
     left: 0px;
@@ -179,7 +176,6 @@
     font-size: 50px;
     position: absolute;
     text-decoration: underline;
-
     text-align: center;
     width: 100%;
     left: 0px;
@@ -195,12 +191,12 @@
 /* Headings */
 
 .container-text-orange{ /*Timetable & Personal Trainers*/
-font-family: 'Open Sans Condensed', sans-serif;
-font-weight: bold;
-color: #cc5500;
-font-size: 60px;
-position: absolute;
-text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    color: #cc5500;
+    font-size: 60px;
+    position: absolute;
+    text-align: center;
     width: 100%;
     left: 0px;
     top: 32%;
@@ -208,12 +204,12 @@ text-align: center;
 }
 
 .container-text-white{ /* Sign- up & Contact us */
-font-family: 'Open Sans Condensed', sans-serif;
-font-weight: bold;
-color: white;
-font-size: 60px;
-position: absolute;
-text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    text-align: center;
     width: 100%;
     left: 0px;
     top: 32%;
@@ -222,25 +218,26 @@ text-align: center;
 
 
 /* Transparent Box- Sign-up & Contact-us */
-.box{ padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 20px;
-  background-color:rgba(204, 85, 0, 0.75);
-  position: absolute;
-  top: 40%;
-  right: 10%;
-  width: 80%;
-  height: 90%;
-  border: 2px solid white;
+.box{ 
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    background-color:rgba(204, 85, 0, 0.75);
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    width: 80%;
+    height: 90%;
+    border: 2px solid white;
 }
 
 /* Timetable PDF */
 .timetable-intro{
-     font-family: 'Open Sans Condensed', sans-serif;
-     color: #cc5500;
-     font-size: 22px;
-     padding-top: 70px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #cc5500;
+    font-size: 22px;
+    padding-top: 70px;
 }
 
 /* Table */
@@ -398,7 +395,6 @@ text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-
 /* Contact us */
 .contact-us-hero{
     width: 100%;
@@ -442,95 +438,95 @@ text-align: center;
 @media screen and (max-width: 375px){
 
     /* index.html */
-    .badge{
-        font-size: 18px;
-    }
+.badge{
+    font-size: 18px;
+}
 
-    .badge:hover{
-        font-size: 19px;
-    }
+.badge:hover{
+    font-size: 19px;
+}
 
-    .logo{
+.logo{
     top: 50px;
     left: 150px;
     height: 70px;
     width: 90px;
-    }
+}
     
-    #cover-text{
-        font-size: 18px;
-        top: 130px;
-        left: 150px;
-    }
+#cover-text{
+    font-size: 18px;
+    top: 130px;
+    left: 150px;
+}
 
-    #hero-outer{
-        height: 250px;
-    }
+#hero-outer{
+    height: 250px;
+}
 
-    .three-bar{
-        height: 250px;
-    }
+.three-bar{
+    height: 250px;
+}
    
    /* timetable.html */
 
-   .container-text-orange{
-       padding-top: 110px;
-   }
+.container-text-orange{
+    padding-top: 110px;
+}
 
-   .link{
-      left: 16px;
-   }
+.link{
+    left: 16px;
+}
 
    /* personal-trainers.html */
 
 
    /* sign-up.html */
 
-   .container-text-white{
-       padding-top: 85px;
-       font-size: 30px;
-   }
+.container-text-white{
+    padding-top: 85px;
+    font-size: 30px;
+}
 
-   .box{
-        height: 25%;
-        overflow: scroll;
-        }
+.box{
+    height: 25%;
+    overflow: scroll;
+}
 
-   #sign-up-box-text{
+#sign-up-box-text{
     font-size: 12px;
-   }
+}
 
-    .form-control{
-        font-size: 12px;
-    }
+.form-control{
+    font-size: 12px;
+}
 
  /* contact-us.html */
  
- .cover-text-2{
-     font-size: 12px;
+.cover-text-2{
+    font-size: 12px;
  }
 
 }
     
 @media screen and (max-width: 768px) and (min-width:380px) {
-    .logo{
+.logo{
     top: 50px;
     left: 320px;
     height: 80px;
     width: 100px;
-    }
+}
 
-    #cover-text{
-        font-size: 35px;
-        top: 300px;
-        left: 300px;
-    }
+#cover-text{
+    font-size: 35px;
+    top: 300px;
+    left: 300px;
+}
 
-    .three-bar{
-        height: 200px;
-    }
+.three-bar{
+    height: 200px;
+}
 
-    #trainer-1{
+#trainer-1{
     height: 150px;
     width: 100%;
 }
@@ -561,39 +557,39 @@ text-align: center;
 }
 
 .box{
-        height: 50%;
-        overflow: scroll;
-        }
+    height: 50%;
+    overflow: scroll;
+}
 
-   #sign-up-box-text{
+#sign-up-box-text{
     font-size: 12px;
    }
 }
 
 @media screen and (max-width: 992px) and (min-width:770px){
 
-    .logo{
+.logo{
     top: 50px;
     left: 420px;
     height: 80px;
     width: 110px;
-    }
+}
 
-    #cover-text{
-        font-size: 35px;
-        top: 300px;
-        left: 350px;
-    }
+#cover-text{
+    font-size: 35px;
+    top: 300px;
+    left: 350px;
+}
 
-    .three-bar{
-        height: 250px;
-    }
+.three-bar{
+    height: 250px;
+}
 
-    .container-text-orange{
-        top: 25%;
-    }
+.container-text-orange{
+    top: 25%;
+}
 
-     #trainer-1{
+#trainer-1{
     height: 200px;
     width: 100%;
 }
@@ -628,13 +624,13 @@ text-align: center;
 }
 
 .box{
-        height: 50%;
-        overflow: scroll;
-        top: 30%;
-        }
+    height: 50%;
+    overflow: scroll;
+    top: 30%;
+}
 
-   #sign-up-box-text{
+#sign-up-box-text{
     font-size: 18px;
-   }
+}
 
 }
