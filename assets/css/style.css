@@ -31,7 +31,6 @@
     font-size: 22px;
 }
 
-
 .nav-link:hover {
     color: #cc5500;
 }
@@ -134,7 +133,6 @@
     padding-bottom: 2px;
     padding-left: 2px;
     padding-right: 2px;
-
 }
 
 #free-trial{
@@ -248,6 +246,7 @@ text-align: center;
      font-family: 'Open Sans Condensed', sans-serif;
      color: #cc5500;
      font-size: 22px;
+     padding-top: 70px;
 }
 
 /* Table */
@@ -294,6 +293,7 @@ text-align: center;
     color: #cc5500;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 22px;
+    padding-top: 100px;
 }
 
 #personal-max{
@@ -386,6 +386,7 @@ text-align: center;
     font-weight: bold;
     color: #cc5500;
     padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 #trainer-info{
@@ -428,6 +429,8 @@ text-align: center;
 
 .social-media{
     text-align: center;
+    padding-top: 20px;
+    padding-left: 50px;
 }
 
 .social-media li{
@@ -437,5 +440,212 @@ text-align: center;
 .social-media i{
     color: white;
     font-size: 250%;
-    padding: 2.5%;
+    padding: 2.5px;
+}
+
+/* --------------- Media Screens ---------------- */
+
+@media screen and (max-width: 375px){
+
+    /* index.html */
+    .badge{
+        font-size: 18px;
+    }
+
+    .badge:hover{
+        font-size: 19px;
+    }
+
+    .logo{
+    top: 50px;
+    left: 150px;
+    height: 70px;
+    width: 90px;
+    }
+    
+    #cover-text{
+        font-size: 18px;
+        top: 130px;
+        left: 150px;
+    }
+
+    #hero-outer{
+        height: 250px;
+    }
+
+    .three-bar{
+        height: 250px;
+    }
+
+    #social-media{
+        
+    }
+   
+   /* timetable.html */
+
+   .container-text-orange{
+       padding-top: 110px;
+   }
+
+   .link{
+      left: 16px;
+   }
+
+   /* personal-trainers.html */
+
+
+   /* sign-up.html */
+
+   .container-text-white{
+       padding-top: 85px;
+       font-size: 30px;
+   }
+
+   .box{
+        height: 25%;
+        overflow: scroll;
+        }
+
+   #sign-up-box-text{
+    font-size: 12px;
+   }
+
+    .form-control{
+        font-size: 12px;
+    }
+
+ /* contact-us.html */
+ 
+ .cover-text-2{
+     font-size: 12px;
+ }
+
+}
+    
+@media screen and (max-width: 768px) and (min-width:380px) {
+    .logo{
+    top: 50px;
+    left: 320px;
+    height: 80px;
+    width: 100px;
+    }
+
+    #cover-text{
+        font-size: 35px;
+        top: 300px;
+        left: 300px;
+    }
+
+    .three-bar{
+        height: 200px;
+    }
+
+    #trainer-1{
+    height: 150px;
+    width: 100%;
+}
+
+#trainer-2{
+    height: 150px;
+    width: 100%;
+}
+
+#trainer-3{
+    height: 150px;
+    width: 100%;
+}
+
+#trainer-4{
+    height: 150px;
+    width: 100%;
+}
+
+#trainer-5{
+    height: 150px;
+    width: 100%;
+}
+
+#trainer-6{
+    height: 150px;
+    width: 100%;
+}
+
+.box{
+        height: 50%;
+        overflow: scroll;
+        }
+
+   #sign-up-box-text{
+    font-size: 12px;
+   }
+}
+
+@media screen and (max-width: 992px) and (min-width:770px){
+
+    .logo{
+    top: 50px;
+    left: 420px;
+    height: 80px;
+    width: 110px;
+    }
+
+    #cover-text{
+        font-size: 35px;
+        top: 300px;
+        left: 350px;
+    }
+
+    .three-bar{
+        height: 250px;
+    }
+
+    .container-text-orange{
+        top: 25%;
+    }
+
+     #trainer-1{
+    height: 200px;
+    width: 100%;
+}
+
+#trainer-2{
+    height: 200px;
+    width: 100%;
+}
+
+#trainer-3{
+    height: 200px;
+    width: 100%;
+}
+
+#trainer-4{
+    height: 200px;
+    width: 100%;
+}
+
+#trainer-5{
+    height: 200px;
+    width: 100%;
+}
+
+#trainer-6{
+    height: 200px;
+    width: 100%;
+}
+
+.container-text-white{
+    top: 25%;
+}
+
+
+.box{
+        height: 50%;
+        overflow: scroll;
+        top: 30%;
+        }
+
+   #sign-up-box-text{
+    font-size: 18px;
+   }
+
 }
