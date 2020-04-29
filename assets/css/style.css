@@ -1900,7 +1900,7 @@
 
 /* index.html */
 .logo {
-    top: 70%;
+    top: 65%;
     height: 80%;
     width: 20%;
 }
@@ -2100,6 +2100,214 @@
 
 .cover-text-2{
     font-size: 18px;
+}
+
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+
+/* index.html */
+.logo {
+    top: 60%;
+    height: 80%;
+    width: 15%;
+}
+
+.badge {
+    font-size: 26px;
+}
+
+.badge:hover{
+    font-size: 26px;
+}
+
+.nav-link {
+    font-size: 22px;
+}
+
+.nav-link:hover{
+    font-size: 22px;
+}
+
+#cover-text{
+    font-size: 30px;
+    top: 35%;
+    left: 35%;
+}
+
+#hero-outer {
+    height: 400px;
+}
+
+.testimonials {
+    font-size: 30px;
+}
+
+#testimonial-text{
+    font-size: 20px;
+}
+
+#testimonial-text-two{
+    font-size: 20px;
+}
+
+.three-bar{
+    height: 270px;
+}
+
+#free-trial{
+    font-size: 40px;
+}
+
+#refer-a-friend{
+    font-size: 40px;
+}
+
+#trainer-career{
+    font-size: 35px;
+}
+
+#free-trial:hover{
+    font-size: 42px;
+}
+
+#refer-a-friend:hover{
+    font-size: 42px;
+}
+
+#trainer-career:hover{
+    font-size: 42px;
+}
+
+.social-media i{
+    margin-top: 30px;
+}
+
+/* Class Timetable */
+
+.container-text-orange{
+    font-size: 40px;
+   margin-top: -210px;
+}
+
+.timetable-intro{
+    font-size: 22px;
+    padding-top: 40px;
+}
+
+.days{
+    font-size: 22px;
+}
+
+.table{
+    font-size: 22px;
+}
+
+.link{
+    font-size: 22px;
+    right: 16px;
+}
+
+/* Personal Trainers */
+
+#pt-info{
+    font-size: 22px;
+    padding-top: 70px;
+}
+
+#personal-max{
+    font-size: 22px;
+}
+
+#personal-lauren{
+    font-size: 22px;
+}
+
+#personal-paul{
+    font-size: 22px;
+}
+
+#personal-gabby{
+    font-size: 22px;
+}
+
+#personal-brad{
+    font-size: 22px;
+}
+
+#personal-john{
+    font-size: 22px;
+}
+
+#trainer-1{
+    height: 200px;
+}
+
+#trainer-2{
+    height: 200px;
+}
+
+#trainer-3{
+    height: 200px;
+}
+
+#trainer-4{
+    height: 200px;
+}
+
+#trainer-5{
+    height: 200px;
+}
+
+#trainer-6{
+    height: 200px;
+}
+
+#trainer-title{
+    font-size: 30px;
+}
+
+#trainer-info{
+    font-size: 22px;
+}
+
+/* Sign up */
+
+.container-text-white{
+    font-size: 40px;
+    margin-top: -170px;
+}
+
+.sign-up-outer{
+    height: 1090px;
+}
+
+#sign-up-img{
+    height: 1090px;
+}
+
+.box{
+    overflow: scroll;
+    height: 55%;
+    margin-top: -230px;
+}
+
+#sign-up-box-text{
+    font-size: 20px;
+}
+
+.form-control{
+    font-size: 20px;
+}
+
+/* Get in touch */
+
+.contact-us-hero{
+    height: 1090px;
+}
+
+.cover-text-2{
+    font-size: 24px;
 }
 
 }
