@@ -97,7 +97,7 @@
 .testimonials{
     padding-top: 50px;
     text-align: center;
-    font-size: 30px;
+    font-size: 60px;
     color: #cc5500;
     font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -421,7 +421,7 @@
     position: absolute;
 }
 
-.social-media{
+.social-media{ /* Credit to Footer from Code Instsitue Love Runnings Mini Project */
     text-align: center;
 }
 
@@ -439,61 +439,192 @@
 
 /* --------------- Media Screens ---------------- */
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 320px){
 
-    /* index.html */
-.badge{
-    font-size: 18px;
+/* index.html */
+.logo {
+    top: 70%;
+    height: 60%;
+    width: 35%;
+}
+
+.badge {
+    font-size: 14px;
 }
 
 .badge:hover{
-    font-size: 19px;
+    font-size: 15px;
 }
 
-.logo{
-    top: 50px;
-    left: 150px;
-    height: 70px;
-    width: 90px;
+.nav-link {
+    font-size: 8px;
 }
-    
+
+.nav-link:hover{
+    font-size: 8px;
+}
+
 #cover-text{
-    font-size: 18px;
-    top: 130px;
-    left: 150px;
+    font-size: 16px;
+    top: 20%;
+    left: 40%;
 }
 
-#hero-outer{
-    height: 250px;
+#hero-outer {
+    height: 200px;
+}
+
+.testimonials {
+    font-size: 26px;
+}
+
+#testimonial-text{
+    font-size: 16px;
+}
+
+#testimonial-text-two{
+    font-size: 16px;
 }
 
 .three-bar{
     height: 250px;
 }
-   
-   /* timetable.html */
 
-.container-text-orange{
-    padding-top: 110px;
-}
-
-.link{
-    left: 16px;
-}
-
-   /* personal-trainers.html */
-
-
-   /* sign-up.html */
-
-.container-text-white{
-    padding-top: 85px;
+#free-trial{
     font-size: 30px;
 }
 
+#refer-a-friend{
+    font-size: 30px;
+}
+
+#trainer-career{
+    font-size: 30px;
+}
+
+#free-trial:hover{
+    font-size: 32px;
+}
+
+#refer-a-friend:hover{
+    font-size: 32px;
+}
+
+#trainer-career:hover{
+    font-size: 32px;
+}
+
+.social-media i{
+    margin-top: 30px;
+}
+
+/* Class Timetable */
+
+.container-text-orange{
+    font-size: 26px;
+    padding-top: 20px;
+}
+
+.timetable-intro{
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.days{
+    font-size: 16px;
+}
+
+.table{
+    font-size: 16px;
+}
+
+.link{
+    font-size: 16px;
+    left: 16px;
+}
+
+/* Personal Trainers */
+
+#pt-info{
+    font-size: 16px;
+    padding-top: 45px;
+}
+
+#personal-max{
+    font-size: 16px;
+}
+
+#personal-lauren{
+    font-size: 16px;
+}
+
+#personal-paul{
+    font-size: 16px;
+}
+
+#personal-gabby{
+    font-size: 16px;
+}
+
+#personal-brad{
+    font-size: 16px;
+}
+
+#personal-john{
+    font-size: 16px;
+}
+
+#trainer-1{
+    height: 200px;
+}
+
+#trainer-2{
+    height: 200px;
+}
+
+#trainer-3{
+    height: 200px;
+}
+
+#trainer-4{
+    height: 200px;
+}
+
+#trainer-5{
+    height: 200px;
+}
+
+#trainer-6{
+    height: 200px;
+}
+
+#trainer-title{
+    font-size: 20px;
+}
+
+#trainer-info{
+    font-size: 16px;
+}
+
+/* Sign up */
+
+.container-text-white{
+    font-size: 26px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+}
+
+.sign-up-outer{
+    height: 310px;
+}
+
+#sign-up-img{
+    height: 310px;
+}
+
 .box{
-    height: 25%;
     overflow: scroll;
+    height: 35%;
 }
 
 #sign-up-box-text{
@@ -501,140 +632,17 @@
 }
 
 .form-control{
-    font-size: 12px;
+    font-size: 10px;
 }
 
- /* contact-us.html */
- 
+/* Get in touch */
+
+.contact-us-hero{
+    height: 310px;
+}
+
 .cover-text-2{
     font-size: 12px;
- }
-
-}
-    
-@media screen and (max-width: 768px) and (min-width:380px) {
-.logo{
-    top: 50px;
-    left: 320px;
-    height: 80px;
-    width: 100px;
-}
-
-#cover-text{
-    font-size: 35px;
-    top: 300px;
-    left: 300px;
-}
-
-.three-bar{
-    height: 200px;
-}
-
-#trainer-1{
-    height: 150px;
-    width: 100%;
-}
-
-#trainer-2{
-    height: 150px;
-    width: 100%;
-}
-
-#trainer-3{
-    height: 150px;
-    width: 100%;
-}
-
-#trainer-4{
-    height: 150px;
-    width: 100%;
-}
-
-#trainer-5{
-    height: 150px;
-    width: 100%;
-}
-
-#trainer-6{
-    height: 150px;
-    width: 100%;
-}
-
-.box{
-    height: 50%;
-    overflow: scroll;
-}
-
-#sign-up-box-text{
-    font-size: 12px;
-   }
-}
-
-@media screen and (max-width: 992px) and (min-width:770px){
-
-.logo{
-    top: 50px;
-    left: 420px;
-    height: 80px;
-    width: 110px;
-}
-
-#cover-text{
-    font-size: 35px;
-    top: 300px;
-    left: 350px;
-}
-
-.three-bar{
-    height: 250px;
-}
-
-.container-text-orange{
-    top: 25%;
-}
-
-#trainer-1{
-    height: 200px;
-    width: 100%;
-}
-
-#trainer-2{
-    height: 200px;
-    width: 100%;
-}
-
-#trainer-3{
-    height: 200px;
-    width: 100%;
-}
-
-#trainer-4{
-    height: 200px;
-    width: 100%;
-}
-
-#trainer-5{
-    height: 200px;
-    width: 100%;
-}
-
-#trainer-6{
-    height: 200px;
-    width: 100%;
-}
-
-.container-text-white{
-    top: 25%;
-}
-
-.box{
-    height: 50%;
-    overflow: scroll;
-    top: 30%;
-}
-
-#sign-up-box-text{
-    font-size: 18px;
 }
 
 }
