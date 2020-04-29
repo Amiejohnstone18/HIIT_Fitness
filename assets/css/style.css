@@ -1146,7 +1146,7 @@
 
 .container-text-orange{
     font-size: 26px;
-   margin-top: -60px;
+   margin-top: -10px;
 }
 
 .timetable-intro{
@@ -1234,7 +1234,7 @@
 
 .container-text-white{
     font-size: 26px;
-    margin-top: -40px;
+    margin-top: -25px;
 }
 
 .sign-up-outer{
@@ -1247,8 +1247,8 @@
 
 .box{
     overflow: scroll;
-    height: 50%;
-    margin-top: -80px;
+    height: 65%;
+    margin-top: -50px;
 }
 
 #sign-up-box-text{
