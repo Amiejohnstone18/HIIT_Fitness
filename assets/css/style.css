@@ -1894,3 +1894,212 @@
 }
 
 }
+
+
+@media screen and (max-width: 768px) and (min-width: 415px) {
+
+/* index.html */
+.logo {
+    top: 70%;
+    height: 80%;
+    width: 20%;
+}
+
+.badge {
+    font-size: 22px;
+}
+
+.badge:hover{
+    font-size: 22px;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+.nav-link:hover{
+    font-size: 18px;
+}
+
+#cover-text{
+    font-size: 22px;
+    top: 32%;
+    left: 30%;
+}
+
+#hero-outer {
+    height: 350px;
+}
+
+.testimonials {
+    font-size: 30px;
+}
+
+#testimonial-text{
+    font-size: 18px;
+}
+
+#testimonial-text-two{
+    font-size: 18px;
+}
+
+.three-bar{
+    height: 200px;
+}
+
+#free-trial{
+    font-size: 40px;
+}
+
+#refer-a-friend{
+    font-size: 40px;
+}
+
+#trainer-career{
+    font-size: 35px;
+}
+
+#free-trial:hover{
+    font-size: 42px;
+}
+
+#refer-a-friend:hover{
+    font-size: 42px;
+}
+
+#trainer-career:hover{
+    font-size: 42px;
+}
+
+.social-media i{
+    margin-top: 30px;
+}
+
+/* Class Timetable */
+
+.container-text-orange{
+    font-size: 30px;
+   margin-top: -110px;
+}
+
+.timetable-intro{
+    font-size: 18px;
+    padding-top: 35px;
+}
+
+.days{
+    font-size: 18px;
+}
+
+.table{
+    font-size: 18px;
+}
+
+.link{
+    font-size: 18px;
+    left: 16px;
+}
+
+/* Personal Trainers */
+
+#pt-info{
+    font-size: 18px;
+    padding-top: 60px;
+}
+
+#personal-max{
+    font-size: 18px;
+}
+
+#personal-lauren{
+    font-size: 18px;
+}
+
+#personal-paul{
+    font-size: 18px;
+}
+
+#personal-gabby{
+    font-size: 18px;
+}
+
+#personal-brad{
+    font-size: 18px;
+}
+
+#personal-john{
+    font-size: 18px;
+}
+
+#trainer-1{
+    height: 150px;
+}
+
+#trainer-2{
+    height: 150px;
+}
+
+#trainer-3{
+    height: 150px;
+}
+
+#trainer-4{
+    height: 150px;
+}
+
+#trainer-5{
+    height: 150px;
+}
+
+#trainer-6{
+    height: 150px;
+}
+
+#trainer-title{
+    font-size: 22px;
+}
+
+#trainer-info{
+    font-size: 16px;
+}
+
+/* Sign up */
+
+.container-text-white{
+    font-size: 30px;
+    margin-top: -90px;
+}
+
+.sign-up-outer{
+    height: 750px;
+}
+
+#sign-up-img{
+    height: 750px;
+}
+
+.box{
+    overflow: scroll;
+    height: 55%;
+    margin-top: -120px;
+}
+
+#sign-up-box-text{
+    font-size: 14px;
+}
+
+.form-control{
+    font-size: 10px;
+}
+
+/* Get in touch */
+
+.contact-us-hero{
+    height: 750px;
+}
+
+.cover-text-2{
+    font-size: 18px;
+}
+
+}
