@@ -57,7 +57,7 @@
 
 /* Hero Shot */
 
-#hero-image { /* Credit to Hero image animation from Code Institute Love Runnings Mini Project */
+#hero-image { /* Credit to Hero image animation from Code Institute Love Running Mini Project https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+CF101+2017_T1/courseware/1f0ccaac7a3e43d895c1beae5363f46c/79eac486cc0c4c9aa54cbe54d009287c/?child=last */
     height:600px;
     width: 100%;
     animation-name: image-zoom;
@@ -421,7 +421,7 @@
     position: absolute;
 }
 
-.social-media{ /* Credit to Footer from Code Instsitue Love Runnings Mini Project */
+.social-media{ /* Credit to Footer from Code Instsitue Love Running Mini Project https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+CF101+2017_T1/courseware/1f0ccaac7a3e43d895c1beae5363f46c/e3e36d91d2da4dd29abad2a454bc3c44/?activate_block_id=block-v1%3ACodeInstitute%2BCF101%2B2017_T1%2Btype%40sequential%2Bblock%40e3e36d91d2da4dd29abad2a454bc3c44 */
     text-align: center;
 }
 
