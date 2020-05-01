@@ -53,7 +53,13 @@ For example, on the home page, the three images display links to:
 
 If I had not displayed these features here, a user may have missed out on the information and therefore the opportunity to get involved. 
 
-I created some mock-up drawings of the website and its intended layout and used these to have peers navigate themselves around the site to ensure there were no dead ends and all information was effectively accessible. In addition to this, I asked them to think of scenarios potential website users may have to ensure they can easily find what they are looking for.
+I created some [mock-up drawings](design-mockups) of the website and its intended layout and used these to have peers navigate themselves around the site to ensure there were no dead ends and all information was effectively accessible. In addition to this, I asked them to think of scenarios potential website users may have to ensure they can easily find what they are looking for.
+
+* [Home](design-mockups/index.html.pdf)
+* [Timetable](design-mockups/timetable.html.pdf)
+* [Personal Trainers](design-mockups/personal-trainers.html.pdf)
+* [Sign Up](design-mockups/sign-up.html.pdf)
+* [Contact Us](design-mockups/contact-us.html.pdf)
 
 
 **User Stories:**
@@ -72,14 +78,14 @@ User C
 
 **Surface:** 
 
-I knew I was going to be using a lot of visuals for the website, therefore I needed the visual language to be simple yet effective. I created mock-ups of the navigation menu `<header>` and the `<footer>` using Adobe InDesign and from here did some audience research on the preferred colour scheme. 
+I knew I was going to be using a lot of visuals for the website, therefore I needed the visual language to be simple yet effective. I created mock-ups of the navigation menu [`<header>`]((design-mockups/header.mockup.pdf)) and the [`<footer>`](design-mockups/footer.mockup.pdf) using [Adobe InDesign](https://en.wikipedia.org/wiki/Adobe_InDesign) and from here did some audience research on the preferred colour scheme. 
 
 The decided colours used in the site are:
 * #FFFFFF (White)
 * #cc5500 (Orange)
 * #a9a9a9 (Grey)
 
-I had downloaded the animal claw SVG from Font Awesome and from there, using Adobe Illustrator added the HIIT FITNESS text and overall logo. The animal claw representing the fast-paced, high- intensity of being a member of HIIT FITNESS.
+I had downloaded the animal claw [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) from Font Awesome and from there, using [Adobe Illustrator](https://en.wikipedia.org/wiki/Adobe_Illustrator) added the HIIT FITNESS text and overall logo. The animal claw representing the fast-paced, high- intensity of being a member of HIIT FITNESS.
 
 The decided font for HIIT FITNESS is Open Sans Condensed downloaded from Google Fonts. 
 
@@ -208,13 +214,11 @@ The link to [HIIT FITNESS](https://amiejohnstone18.github.io/HIIT_Fitness/index.
 
 **Content**
 
-* The code for the page favicon was copied from: https://www.youtube.com/watch?v=kEf1xSwX5D8
+* The code for the page favicon was copied from [Add A Favicon to A Website in HTML | Learn HTML and CSS | HTML Tutorial | HTML for Beginners.](https://www.youtube.com/watch?v=kEf1xSwX5D8)
 
-* The Home page hero shot animation transition was copied from Code Institutes Love Running Mini Project:
-https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+CF101+2017_T1/courseware/1f0ccaac7a3e43d895c1beae5363f46c/79eac486cc0c4c9aa54cbe54d009287c/?child=last
+* The Home page hero shot animation transition was copied from Code Institutes [Love Running Mini Project.](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+CF101+2017_T1/courseware/1f0ccaac7a3e43d895c1beae5363f46c/79eac486cc0c4c9aa54cbe54d009287c/?child=last)
 
-* The footer social media links layout were copied from Code Institutes Love Running Mini Project:
-https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+CF101+2017_T1/courseware/1f0ccaac7a3e43d895c1beae5363f46c/e3e36d91d2da4dd29abad2a454bc3c44/?activate_block_id=block-v1%3ACodeInstitute%2BCF101%2B2017_T1%2Btype%40sequential%2Bblock%40e3e36d91d2da4dd29abad2a454bc3c44
+* The footer social media links layout were copied from Code Institutes [Love Running Mini Project.](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+CF101+2017_T1/courseware/1f0ccaac7a3e43d895c1beae5363f46c/e3e36d91d2da4dd29abad2a454bc3c44/?activate_block_id=block-v1%3ACodeInstitute%2BCF101%2B2017_T1%2Btype%40sequential%2Bblock%40e3e36d91d2da4dd29abad2a454bc3c44)
 
 * Ellie Wilkingson-A Personal Trainer and friend provided the content for the personal trainer specialties and gym class timetable. 
 
@@ -222,7 +226,7 @@ https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+CF101+2017_T1/
 
 Images were downloaded via:
 
-* [Shutterstock](https://www.shutterstock.com/home()
+* [Shutterstock](https://www.shutterstock.com/home)
 * [Pexels](https://www.pexels.com/)
 * [Pixabay](https://pixabay.com/)
 
