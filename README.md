@@ -1,26 +1,26 @@
 # HIIT FITNESS
-Upon being provided with the example briefs from Code Institute for the Milestone 1 project, I had decided to design and build a website for a gym. I wanted to build [HIIT FITNESS](https://amiejohnstone18.github.io/HIIT_Fitness/index.html) to encourage potential new customers to join the gym by promoting the unique benefits offered, and in turn, provide all existing members with easy access to any information they may require. The name HIIT FITNESS came from the gym being associated with high-intensity interval training.
+Upon being provided with the example briefs from Code Institute for the Milestone 1 project, I had decided to design and build a website for a gym. I wanted to build [HIIT FITNESS](https://amiejohnstone18.github.io/HIIT_Fitness/index.html) to encourage potential new customers to join the gym by promoting the unique benefits offered, and in turn, provide all existing members with easy access to any information they may require. The name [HIIT FITNESS](https://amiejohnstone18.github.io/HIIT_Fitness/index.html) came from the gym being associated with high-intensity interval training.
 
-From doing initial research on competitor gym websites, I had come across a lot that showed an unnecessary overload of information and ended up being frustrating attempting to navigate myself around the site looking for basic information. From this, I had decided that HIIT FITNESS would be clean in its presentation and ensure there was no confusion on the user's journey from start to finish. 
+From doing initial research on competitor gym websites, I had come across a lot that showed an unnecessary overload of information and ended up being frustrating attempting to navigate myself around the site looking for basic information. From this, I had decided that [HIIT FITNESS](https://amiejohnstone18.github.io/HIIT_Fitness/index.html) would be clean in its presentation and ensure there was no confusion on the user's journey from start to finish. 
 
 # UX
 **Strategy:**
 
-Due to my website being targeted at a B2C audience, one of my business objectives for this product is to encourage new potential members to join the gym through the promotion of what HIIT FITNESS could offer. As for the wide range of gym competition, it was imperative to ensure the website advertised benefits that would influence a user's decision. This is where I decided that the gym would offer:
+Due to my website being targeted at a B2C audience, one of my business objectives for this product is to encourage new potential members to join the gym through the promotion of what [HIIT FITNESS](https://amiejohnstone18.github.io/HIIT_Fitness/index.html) could offer. As for the wide range of gym competition, it was imperative to ensure the website advertised benefits that would influence a user's decision. This is where I decided that the gym would offer:
 * 1 month's free trial
 * Refer a friend policy- receive a free personal training session
 * Capped memberships- no overcrowding 
 * 24/7 gym access
 * No lock-in contracts 
 * No sign-up fee
-* Existing client testimonials
+* Existing member testimonials
 
 It was also important to consider how to maintain existing customers and ensure their user experience online was enjoyable. I conducted some research and asked my peers what they felt was essential information to be included on a gym website for existing members. It was decided this would be achieved by:
-* Providing a class-for-all timetable with an option to download in a PDF
+* Providing a class-for-all timetable with an option to download in a [PDF](https://en.wikipedia.org/wiki/PDF)
 * Information on the personal trainers and their specialties 
 * Contact details 
 
-I had also decided that I wanted to include a brief section on how to become a personal trainer for HIIT FITNESS as I felt this would encourage more traffic to the site through a different avenue.
+I had also decided that I wanted to include a brief section on how to become a personal trainer for [HIIT FITNESS](https://amiejohnstone18.github.io/HIIT_Fitness/index.html) as I felt this would encourage more traffic to the site through a different avenue.
 
 **Scope:**
 
@@ -33,7 +33,7 @@ With a lot of business goals to achieve, I started to determine the website's re
 
 **Structure:**
 
-HIIT FITNESS included a fair amount of textual content, especially for personal trainers and the class timetable. To ensure my information architecture was organised appropriately, I decided to spread out information. In total, HIIT FITNESS has a navigation of five options:
+[HIIT FITNESS](https://amiejohnstone18.github.io/HIIT_Fitness/index.html) included a fair amount of textual content, especially for personal trainers and the class timetable. To ensure my information architecture was organised appropriately, I decided to spread out information. In total, [HIIT FITNESS](https://amiejohnstone18.github.io/HIIT_Fitness/index.html) has a navigation of five options:
 * Home
 * Class Timetable
 * Personal Trainers
@@ -79,32 +79,33 @@ The decided colours used in the site are:
 * `#cc5500` (Orange)
 * `#a9a9a9` (Grey)
 
-I had downloaded the animal claw [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) from Font Awesome and from there, using [Adobe Illustrator](https://en.wikipedia.org/wiki/Adobe_Illustrator) added the HIIT FITNESS text and overall logo. The animal claw representing the fast-paced, high- intensity of being a member of HIIT FITNESS.
+I had downloaded the animal claw [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) from [Font Awesome](https://fontawesome.com/) and from there, using [Adobe Illustrator](https://en.wikipedia.org/wiki/Adobe_Illustrator) added the [HIIT FITNESS](https://amiejohnstone18.github.io/HIIT_Fitness/index.html) text and overall logo. The animal claw representing the fast-paced, high- intensity of being a member of [HIIT FITNESS](https://amiejohnstone18.github.io/HIIT_Fitness/index.html).
 
-The decided font for HIIT FITNESS is Open Sans Condensed downloaded from Google Fonts. 
+The decided font for [HIIT FITNESS](https://amiejohnstone18.github.io/HIIT_Fitness/index.html) is [Open Sans Condensed](https://fonts.google.com/specimen/Open+Sans+Condensed?query=open+sans) downloaded from [Google Fonts](https://fonts.google.com/). 
 
 # FEATURES
 
 **Existing features:**
+
 All pages on the website include the same `<navigation>` / `<header>` and `<footer>`. I have used a `:hover` on the navigation menu to ensure the user is aware of the path they are taking.
 
 * Sign up button- Allows the user to become a member by having them click the button.
 
-* Hero shot text- Designed to bullet point to the user the key benefits of joining HIIT FITNESS.
+* Hero shot text- Designed to bullet point to the user the key benefits of joining [HIIT FITNESS](https://amiejohnstone18.github.io/HIIT_Fitness/index.html).
 
-* Free Trial- This `:hover` feature appears at the bottom of the home page and is a direct link to information on HIIT FITNESS's option for a free trial upon sign up.
+* Free Trial- This `:hover` feature appears at the bottom of the home page and is a direct link to information on [HIIT FITNESS](https://amiejohnstone18.github.io/HIIT_Fitness/index.html)'s option for a free trial upon sign up.
 
-* Refer a Friend- This `:hover` feature appears at the bottom of the home page and is a direct link to information on HIIT FITNESS's option for a referring a friend benefits upon sign up.
+* Refer a Friend- This `:hover` feature appears at the bottom of the home page and is a direct link to information on [HIIT FITNESS](https://amiejohnstone18.github.io/HIIT_Fitness/index.html)'s option for a referring a friend benefits upon sign up.
 
-* Become a Trainer- This `:hover` feature appears at the bottom of the home page and is a direct link to information on how to become a personal trainer for HIIT FITNESS.
+* Become a Trainer- This `:hover` feature appears at the bottom of the home page and is a direct link to information on how to become a personal trainer for [HIIT FITNESS](https://amiejohnstone18.github.io/HIIT_Fitness/index.html).
 
-* Social Media Icons- Allows the user to access the HIIT FITNESS social platforms by having them click the icon links.
+* Social Media Icons- Allows the user to access the [HIIT FITNESS](https://amiejohnstone18.github.io/HIIT_Fitness/index.html) social platforms by having them click the icon links.
 
-* Download Timetable- This `:hover` allows the user to download the PDF version of the class timetable by clicking the link.
+* Download Timetable- This `:hover` allows the user to download the [PDF](https://en.wikipedia.org/wiki/PDF) version of the class timetable by clicking the link.
 
 * Sign up Form- This page includes details of the refer a friend or one month's free trial benefits the gym offers and instructions on how to proceed with signing up.
 
-* Contact us- Provides the user information on how to contact HIIT FITNESS.
+* Contact us- Provides the user information on how to contact [HIIT FITNESS](https://amiejohnstone18.github.io/HIIT_Fitness/index.html).
 
 **Features left to implement:**
 
@@ -119,9 +120,9 @@ All pages on the website include the same `<navigation>` / `<header>` and `<foot
 
 * [BOOTSTRAP](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)) - A framework used for design templates and device compatibility.
 
-* [FONT AWESOME](https://en.wikipedia.org/wiki/Font_Awesome) - Used for adding icons to HIIT FITNESS.
+* [FONT AWESOME](https://en.wikipedia.org/wiki/Font_Awesome) - Used for adding icons to [HIIT FITNESS](https://amiejohnstone18.github.io/HIIT_Fitness/index.html).
 
-* [GOOGLE FONTS](https://en.wikipedia.org/wiki/Google_Fonts) - A font library website used to implement the required font to HIIT FITNESS.
+* [GOOGLE FONTS](https://en.wikipedia.org/wiki/Google_Fonts) - A font library website used to implement the required font to [HIIT FITNESS](https://amiejohnstone18.github.io/HIIT_Fitness/index.html).
 
 
 # TESTING 
@@ -135,14 +136,14 @@ I ensured to validate my code using:
 
 **User Stories**
 
-As previously mentioned in my UX design, I asked peers to create real-life potential user stories so I could evaluate whether my website was serving its purpose. Once I had built HIIT FITNESS, I again tested these user stories to ensure there were no flaws in the narrative of these enquiries. 
+As previously mentioned in my UX design, I asked peers to create real-life potential user stories so I could evaluate whether my website was serving its purpose. Once I had built [HIIT FITNESS](https://amiejohnstone18.github.io/HIIT_Fitness/index.html), I again tested these user stories to ensure there were no flaws in the narrative of these enquiries. 
 
 User A
 
 
 *"As an existing member, I want to find out how I book into one of the gym classes so that I can attend."*
 
-* A simple click from the Home page to the Timetable, within the page introduction it states *"To book into one of our classes, simply email your name and the class you want to book to hiit-fitness@gmail.com and you will receive an email confirming your place in the class."* In the case of a user downloading the PDF, this information is also repeated on that document.
+* A simple click from the Home page to the Timetable, within the page introduction it states *"To book into one of our classes, simply email your name and the class you want to book to hiit-fitness@gmail.com and you will receive an email confirming your place in the class."* In the case of a user downloading the [PDF](https://en.wikipedia.org/wiki/PDF), this information is also repeated on that document.
 
 User B 
 
@@ -154,7 +155,7 @@ User C
 
 *"I am thinking about becoming a member, but I have no previous gym experience and would like some trainer help"*
 
-* From clicking on the personal trainer option on the navigation menu, it will take a user to a page of 6 employed trainers. With each trainer, we have provided their name and some information about their specialty to ensure a member is getting the best out of their work out goals. 
+* From clicking on the personal trainer option on the navigation menu, it will take a user to a page of 6 employed trainers. With each trainer, I have provided their name and some information about their specialty to ensure a member is getting the best out of their work out goals. 
 
 Due to having a sign-up form on the website, I wanted to ensure this worked and didn't accept fake email addresses. I tested this through:
 
@@ -172,7 +173,7 @@ Go to the signup page.
 
 I have links to social media in the footer of each page. To ensure these worked, I tested clicking them on every page and got redirected in a separate window to the desired platform. 
 
-The timetable PDF is similar to the above, the link will open a new window with the desired document available to download. 
+The timetable [PDF](https://en.wikipedia.org/wiki/PDF) is similar to the above, the link will open a new window with the desired document available to download. 
 
 I repeatedly tested the websites internal links such as:
 * Sign up badge 
@@ -182,14 +183,14 @@ I repeatedly tested the websites internal links such as:
 
 **Responsiveness and Browser compatibility**
 
-I created a Responsive Testing spreadsheet in Excel which for this document I exported into a PDF to view. On here, I logged the outcome of the deployed website on various devices and browsers. 
+I created a [Responsive Testing](response-testing) spreadsheet in [Excel](https://en.wikipedia.org/wiki/Microsoft_Excel) which for this document I exported into a [PDF](https://en.wikipedia.org/wiki/PDF) to view. On here, I logged the outcome of the deployed website on various devices and browsers. 
 
 # DEPLOYMENT
-I deployed HIIT FITNESS to GitHub Pages through the below method:
+I deployed HIIT FITNESS to [GitHub Pages](https://en.wikipedia.org/wiki/GitHub#GitHub_Pages) through the below method:
 
-1.	Access settings on my GitHub HIIT FITNESS repository 
-2.	Scroll down to GitHub Pages
-3.	Select Master Branch
+1.	Access settings on my [GitHub](https://en.wikipedia.org/wiki/GitHub) [HIIT FITNESS](https://amiejohnstone18.github.io/HIIT_Fitness/index.html) repository 
+2.	Scroll down to [GitHub Pages](https://en.wikipedia.org/wiki/GitHub#GitHub_Pages)
+3.	Select Master Branch 
 4.	Save 
 5.	Clicked on the URL to load the site
 6.	Images on the website didn't load 
@@ -199,7 +200,7 @@ I deployed HIIT FITNESS to GitHub Pages through the below method:
 10.	Clicked on the URL to load the site 
 11.	Images still don't work
 12.	Checked the path to the images (remove '/assets' to just 'assets')
-13.	Commit and push changes in the GitPod repository 
+13.	Commit and push changes in the GitPod terminal 
 14.	Re-load website- images now displayed, the website works correctly.
 
 The link to [HIIT FITNESS](https://amiejohnstone18.github.io/HIIT_Fitness/index.html) deployed site is: https://amiejohnstone18.github.io/HIIT_Fitness/index.html
@@ -228,8 +229,6 @@ Images were downloaded via:
 
 **Acknowledgements**
 
-I received inspiration for this project from my recent own personal journey into becoming a member of a gym, having no previous experience or interest. I thought about the experience I had in joining a gym and aimed to improve where possible. 
-
 I would like to thank my Personal Trainer Ellie Wilkinson for her help in ensuring my content was correctly informed. 
 
-Thank you to my Mentor Aaron Sinnott for being patient in my Mentor sessions and for providing me with valuable feedback each time. 
+
