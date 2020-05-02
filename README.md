@@ -55,12 +55,6 @@ If I had not displayed these features here, a user may have missed out on the in
 
 I created some [mock-up drawings](design-mockups) of the website and its intended layout and used these to have peers navigate themselves around the site to ensure there were no dead ends and all information was effectively accessible. In addition to this, I asked them to think of scenarios potential website users may have to ensure they can easily find what they are looking for.
 
-* [Home](design-mockups/index.html.pdf)
-* [Timetable](design-mockups/timetable.html.pdf)
-* [Personal Trainers](design-mockups/personal-trainers.html.pdf)
-* [Sign Up](design-mockups/sign-up.html.pdf)
-* [Contact Us](design-mockups/contact-us.html.pdf)
-
 
 **User Stories:**
 
@@ -78,12 +72,12 @@ User C
 
 **Surface:** 
 
-I knew I was going to be using a lot of visuals for the website, therefore I needed the visual language to be simple yet effective. I created mock-ups of the navigation menu [`<header>`]((design-mockups/header.mockup.pdf)) and the [`<footer>`](design-mockups/footer.mockup.pdf) using [Adobe InDesign](https://en.wikipedia.org/wiki/Adobe_InDesign) and from here did some audience research on the preferred colour scheme. 
+I knew I was going to be using a lot of visuals for the website, therefore I needed the visual language to be simple yet effective. I created [mock-ups](design-mockups) of the navigation menu `<header>` and the `<footer>` using [Adobe InDesign](https://en.wikipedia.org/wiki/Adobe_InDesign) and from here did some audience research on the preferred colour scheme. 
 
 The decided colours used in the site are:
-* #FFFFFF (White)
-* #cc5500 (Orange)
-* #a9a9a9 (Grey)
+* `#FFFFFF` (White)
+* `#cc5500` (Orange)
+* `#a9a9a9` (Grey)
 
 I had downloaded the animal claw [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) from Font Awesome and from there, using [Adobe Illustrator](https://en.wikipedia.org/wiki/Adobe_Illustrator) added the HIIT FITNESS text and overall logo. The animal claw representing the fast-paced, high- intensity of being a member of HIIT FITNESS.
 
@@ -92,7 +86,7 @@ The decided font for HIIT FITNESS is Open Sans Condensed downloaded from Google 
 # FEATURES
 
 **Existing features:**
-All pages on the website include the same `<navigation>` / `<header>` and `<footer>`. I have used a :hover on the navigation menu to ensure the user is aware of the path they are taking.
+All pages on the website include the same `<navigation>` / `<header>` and `<footer>`. I have used a `:hover` on the navigation menu to ensure the user is aware of the path they are taking.
 
 * Sign up button- Allows the user to become a member by having them click the button.
 
@@ -163,6 +157,7 @@ User C
 * From clicking on the personal trainer option on the navigation menu, it will take a user to a page of 6 employed trainers. With each trainer, we have provided their name and some information about their specialty to ensure a member is getting the best out of their work out goals. 
 
 Due to having a sign-up form on the website, I wanted to ensure this worked and didn't accept fake email addresses. I tested this through:
+
 
 1. Go to the sing up page.
 2. Fill in the form without an '@' in the email address.
